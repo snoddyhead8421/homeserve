@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
     return render(request, 'myelectric/about.html')
+
+def base(request):
+    return render(request, 'myelectric/base.html')
